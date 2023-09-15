@@ -6,10 +6,10 @@ export default function Layout(props: any) {
         <div className={styles.layout}>
             <div className={styles.header}>
                 <h1>
-                 {props.title ?? 'Um texto opcional'}
+                    {props.title ?? 'Exemplo de Css Modularizado'}
                 </h1>
                 <Link href="/">
-                    <button>Voltar</button> 
+                    <span>Voltar</span>
                 </Link>
             </div>
             <div className={styles.content}>

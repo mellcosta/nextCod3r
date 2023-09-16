@@ -1,10 +1,16 @@
-import Link from "next/link"
+import Navegador from "./Navegador/page"
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-      <Link href="/Estiloso" >Estiloso</Link>
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+    }} >
+      <Navegador titulo="Estiloso" destino="/Estiloso"/>
+      <Navegador titulo="Exemplo" destino="/Exemplo" cor="red" />
+      <Navegador titulo="JSX" destino="/JSX" cor="#f1f120" />
     </div>
   )
 }

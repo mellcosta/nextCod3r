@@ -1,3 +1,5 @@
+import Layout from "@/Components/Layout"
+
 export default function Jsx(){
     const titulo = <h1>JSX é um conceito central</h1>
 
@@ -9,7 +11,7 @@ export default function Jsx(){
     var b = 10
 
     return (
-        <div>
+        <Layout title="Exemplo de JS em JSX">
             {titulo}
             {subtitulo()}
             <p>
@@ -19,6 +21,6 @@ export default function Jsx(){
             <p>
                 Idade: {a * b}
             </p>
-        </div>
+        </Layout>
     )
 }

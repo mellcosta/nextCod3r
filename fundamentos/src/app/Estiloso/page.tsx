@@ -1,4 +1,4 @@
-import styles from './Estiloso.module.css'
+import styles from '@/styles/Estiloso.module.css'
 
 import Layout from '@/Components/Layout'
 
